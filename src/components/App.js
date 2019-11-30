@@ -6,6 +6,7 @@ import FirstPage from './app/pages/FirstPage';
 import SecondPage from './app/pages/SecondPage';
 import Footer from './app/pages/Footer';
 import Hamburger from './app/resources/hamburger';
+import SpendLess from './app/pages/SpendLess';
 
 
 const App = () => {
@@ -16,7 +17,7 @@ const App = () => {
         <section id="main">
           <Switch>
             <Route exact path="/" />
-            <Route exact path="/Firstpage" component={FirstPage}/>
+            <Route exact path="/SpendLess" component={SpendLess}/>
             <Route exact path="/Secondpage" component={SecondPage} />
           </Switch>
         </section>

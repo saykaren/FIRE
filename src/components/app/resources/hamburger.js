@@ -37,7 +37,7 @@ const Hamburger = () =>{
             <Link to="/">Home</Link>
           </li>
           <li className={navigationList}>
-            <Link to="/Firstpage">First Page</Link>
+            <Link to="/SpendLess">Spend Less</Link>
           </li>
           <li className={navigationList}>
             <Link to="/Secondpage">Second Page</Link>
