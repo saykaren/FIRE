@@ -10,30 +10,50 @@
     height: 40vmin;
   }
   
-    
+  .link {
+    color: $link-color;
+    text-decoration: underline;
+    padding: 4px;
+  }
+
   #main{
     background-color: $secondary-color;
     width: 100%;
-    height: 100vh;
+    height: fit-content;
     position: absolute;
     padding-top: 1rem;
     padding-right: 4rem;
   }
 
   .main-section {
+    padding: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .section-header{
+    width: 100%;
+  }
+
+  .sub-section {
     border: 2px solid $highlight-color;
-    background-color: white;
+    background-color: $sub-background;
     margin-right: 15%;
     margin-left: 15%;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     border-radius: 10px;
     padding: 1rem;
+    margin: 1rem;
+    width: 80rem;
   }
+
+
   
   button {
     background-color: $primary-color;
     border-radius: 5px;
-    color: white;
+    color: $main-font-color;
     padding: 5px;
     border: solid 1px white;
     margin: 5px;

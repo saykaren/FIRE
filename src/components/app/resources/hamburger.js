@@ -40,7 +40,19 @@ const Hamburger = () =>{
             <Link to="/SpendLess">Spend Less</Link>
           </li>
           <li className={navigationList}>
-            <Link to="/Secondpage">Second Page</Link>
+            <Link to="/RidDebt">Rid Your Life of Debt</Link>
+          </li>
+          <li className={navigationList}>
+            <Link className="navA" to="/PayYourSelf">Pay Yourself First</Link>
+          </li>
+          <li className={navigationList}>
+            <Link className="navA" to="/InvestingVehicles">Investing Vehicles</Link>
+          </li>
+          <li className={navigationList}>
+            <Link className="navA" to="/TippingPoint">Tipping Point</Link>
+          </li>
+          <li className={navigationList}>
+            <Link className="navA" to="/Resources">Resources</Link>
           </li>
         </ul>
       </header>
