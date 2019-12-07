@@ -33,7 +33,12 @@ const PayYourSelf = () =>{
      
                 <div className="sub-section">  
                     Max out your IRA (Individual Retirement Account). For 2019 the 
-                    <a className="link" href="https://www.irs.gov/newsroom/401k-contribution-limit-increases-to-19000-for-2019-ira-limit-increases-to-6000" target="_blank">
+                    <a 
+                        className="link" 
+                        href="https://www.irs.gov/newsroom/401k-contribution-limit-increases-to-19000-for-2019-ira-limit-increases-to-6000" 
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >
                         IRS 
                     </a>
                     has increased the limit to $6,000 a year max to an IRA. 

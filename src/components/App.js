@@ -1,9 +1,7 @@
 import React from 'react';
 import './app/styling/App.scss';
 import './app/styling/navigation.scss';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
-import FirstPage from './app/pages/FirstPage';
-import SecondPage from './app/pages/SecondPage';
+import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
 import Footer from './app/pages/Footer';
 import Hamburger from './app/resources/hamburger';
 import SpendLess from './app/pages/SpendLess';

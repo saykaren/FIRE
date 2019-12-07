@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import './../styling/ham.scss';
-import {BrowserRouter as Router, Route, Switch, Link} from 'react-router-dom';
+import {BrowserRouter as Router, Link} from 'react-router-dom';
 
 
 const Hamburger = () =>{

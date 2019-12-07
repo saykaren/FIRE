@@ -12,7 +12,7 @@ const InvestingVehicles = () =>{
     return(
         <>
             <button className="backButton" onClick={goBackHistory}>Back</button>
-            <section id="Investing_Vehicles" class="main-section">
+            <section id="Investing_Vehicles" className="main-section">
                 <h2 className="section-header">Investing Vehicles</h2>
                 <div className="flex-container">
                     <div className="sub-flex">ETF</div>
@@ -33,7 +33,9 @@ const InvestingVehicles = () =>{
                     with the completion of a bet from 
                     <a className="link" 
                         href="https://www.cnbc.com/2018/02/16/warren-buffett-won-2-point-2-million-on-a-bet-and-gave-it-to-girls-inc.html" 
-                        target="_blank">
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
                         Warren Buffett 
                     </a>
                     that hedge fund managers couldn't beat the stock market average over a 10 year period. Warren won and donating the proceeds of 

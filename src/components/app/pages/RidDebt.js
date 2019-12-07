@@ -11,7 +11,7 @@ const RidDebt = () =>{
     return(
         <>
             <button className="backButton" onClick={goBackHistory}>Back</button>
-            <section id="Rid_Your_Life_of_Debt" class="main-section">
+            <section id="Rid_Your_Life_of_Debt" className="main-section">
                 <h2 className="section-header">Rid Your Life of Debt</h2>
         
                 <div className="sub-section"> 
@@ -36,8 +36,15 @@ const RidDebt = () =>{
                 </div>
                 <div className="sub-section">  
                     Check my math at 
-                        <a className="link" href="https://www.daveramsey.com/smartvestor/investment-calculator?snid=tools.investingcalc" target="_blank">Dave Ramsey's 
-                        website</a> and try your own numbers to realize how much a few hundred a month can save you over the course of a decade. 
+                        <a 
+                            className="link" 
+                            href="https://www.daveramsey.com/smartvestor/investment-calculator?snid=tools.investingcalc" 
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            Dave Ramsey's website
+                        </a> 
+                    and try your own numbers to realize how much a few hundred a month can save you over the course of a decade. 
                 </div>
                 <div className="sub-section"> 
                     Lastly once you are debt free, never go back. Never get another car loan or zero down 0% interest for 12 months loan <b>again</b>. 

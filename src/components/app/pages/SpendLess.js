@@ -11,7 +11,7 @@ const SpendLess = () =>{
     return(
         <>
             <button className="backButton" onClick={goBackHistory}>Back</button>
-            <section id="Spending_less_than_you_earn" class="main-section">
+            <section id="Spending_less_than_you_earn" className="main-section">
                 <h2 className="section-header">Spending less than you earn</h2>
                 <div className="sub-section"> 
                     The only way to get ahead is to outpace your spending habits. If you make $150,000 a year but spend $145,000 a year you are worse off than 

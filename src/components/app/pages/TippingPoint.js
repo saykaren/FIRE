@@ -11,7 +11,7 @@ const TippingPoint = () =>{
     return(
         <>
             <button className="backButton" onClick={goBackHistory}>Back</button>
-            <section id="Investing_Vehicles" class="main-section">
+            <section id="Investing_Vehicles" className="main-section">
                 <h2 className="section-header">The Tipping Point</h2>
                 <div className="sub-section"> 
                     You are riding your bike up a steep hill pushing and pushing and can see the top of the hill just feet away. Once you hit the top 
