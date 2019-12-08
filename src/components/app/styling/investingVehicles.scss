@@ -17,3 +17,17 @@
     margin: 1rem;
     width: 10rem;
   }
+
+  .investing-sub-section {
+      border: 2px solid $highlight-color;
+      background-color: $sub-background;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 10px;
+      padding: 1rem;
+      margin: 1rem;
+      width: 80rem;    
+  }
+
+  .investing-summary {
+    font-size: 2rem;
+  }
