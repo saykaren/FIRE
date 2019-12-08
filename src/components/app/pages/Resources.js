@@ -1,5 +1,6 @@
 import React from 'react';
 import {useHistory} from 'react-router';
+import './../styling/resources.scss';
 
 const Resources = () =>{
     const history = useHistory();
@@ -13,25 +14,27 @@ const Resources = () =>{
             <button className="backButton" onClick={goBackHistory}>Back</button>
             <section id="Investing_Vehicles" className="main-section">
                 <h2 className="section-header">Resources</h2>
-                <div className="sub-section"> 
+                <div className="resource-sub-section"> 
                     <h2>Dave Ramsey</h2>
                     <iframe 
                         title="Dave_Ramsey"
                         width="560" height="315" 
                         src="https://www.youtube.com/embed/h-fcI7W-ucY"  
+                        className="iframeVideo"
                         id="video"></iframe>
                     </div>
      
-                    <div className="sub-section"> 
+                    <div className="resource-sub-section"> 
                     <h2>Tony Robbins</h2>
                     <iframe 
                         title="Tony_Robbins"
                         width="560" 
                         height="315" 
                         src="https://www.youtube.com/embed/kSoO2KjVVG4"
+                        className="iframeVideo"
                     ></iframe>
                     </div>
-                    <div className="sub-section"> 
+                    <div className="resource-sub-section"> 
                         <h2>My Money Wizard</h2>
                         Very interest blog of a man who was able to retire early and how he did it. View his blog at 
                         <a 
@@ -43,16 +46,17 @@ const Resources = () =>{
                             My Money Wizard
                         </a>
                     </div>
-                    <div className="sub-section"> 
+                    <div className="resource-sub-section"> 
                         <h2>Earl Nightingale</h2>
                         <iframe 
                             title="Earl_Nightingale"
                             width="560" 
                             height="315" 
                             src="https://www.youtube.com/embed/EFhkdzj-x80"
+                            className="iframeVideo"
                         ></iframe>
                     </div>
-                    <div className="sub-section"> 
+                    <div className="resource-sub-section"> 
                         <h2>TAS by Karen Garcia</h2>
                     <a 
                         className="link"
