@@ -15,6 +15,7 @@ import Home from './app/pages/Home';
 
 const App = () => {
   return (
+
     <Router>
       <div className="App">
           <Hamburger />
@@ -33,6 +34,7 @@ const App = () => {
       </div>
 
     </Router>
+
   );
 }
 
